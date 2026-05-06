@@ -82,7 +82,7 @@ namespace FieldsValidation.ModelsLogic
 
         public override void Login()
         {
-            loginResult = (userName == "admin" && password == "P1234") ? "Loged in" : "Faield to login";
+            loginResult = (userName == "admin" && password == "1234") ? "Loged in" : "Faield to login";
         }
     }
 }
